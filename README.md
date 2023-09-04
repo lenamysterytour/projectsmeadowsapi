@@ -43,8 +43,9 @@
 <img title="Allure Overview" src="media/screen/allure1.PNG">
 </p>
 
-<p align="center"> 
-<img title="Allure" src="media/screen/allure2.PNG"> </p> 
+<p align="center">
+<a id="jenkins"></a>
+<img title="Allure" src="media/screen/allure2.png"> </p> 
 
 > Отчет позволяет детально посмотреть шаги выполнения тестов
 
