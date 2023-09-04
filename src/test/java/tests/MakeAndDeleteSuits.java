@@ -2,9 +2,9 @@ package tests;
 
 import models.CreateRoomBody;
 import models.LoginBody;
-import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import specs.BookingSpec;
+
 
 import static io.qameta.allure.Allure.step;
 import static io.restassured.RestAssured.given;
@@ -14,7 +14,6 @@ import static org.hamcrest.Matchers.is;
 public class MakeAndDeleteSuits extends ApiTestBase {
 
     @Test
-    @Tag("room")
     void makeRoomTest() {
         LoginBody loginAuthData = new LoginBody();
         loginAuthData.setUsername("admin");
@@ -58,7 +57,6 @@ public class MakeAndDeleteSuits extends ApiTestBase {
     }
 
     @Test
-    @Tag("roomdelete")
     void DeleteRoomTest() {
 
         LoginBody loginAuthData = new LoginBody();
@@ -85,7 +83,7 @@ public class MakeAndDeleteSuits extends ApiTestBase {
         createRoomBody.setDescription("Pet-friendly");
         createRoomBody.setImage("https://www.mwtestconsultancy.co.uk/img/room1.jpg");
         createRoomBody.setRoomPrice("5");
-        createRoomBody.setFeatures(null);
+        //   createRoomBody.setFeatures(null);
 
         step("Create new room", () -> {
             given(BookingSpec.bookingloginRequestSpec)

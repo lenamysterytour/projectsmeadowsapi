@@ -45,25 +45,7 @@ tasks.withType(Test) {
     useJUnitPlatform()
     systemProperties(System.getProperties())
 
-    task room_test (type: Test) {
-        useJUnitPlatform{
-            includeTags("room")
-        }}
 
-    task delete_room_test (type: Test) {
-        useJUnitPlatform{
-            includeTags("deleteroom")
-        }}
-
-    task messages_test (type: Test) {
-        useJUnitPlatform{
-            includeTags("message")
-        }}
-
-    task logins_test (type: Test) {
-        useJUnitPlatform{
-            includeTags("login")
-        }}
 
     testLogging {
         lifecycle {

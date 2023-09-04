@@ -3,7 +3,6 @@ package tests;
 import models.BadMessageResponse;
 import models.MessagesRequest;
 import models.MessagesResponse;
-import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import specs.BookingSpec;
 
@@ -14,7 +13,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class SendTextMessageTests extends ApiTestBase {
 
     @Test
-    @Tag("message")
     void SendingMessagePositiveTest() {
         MessagesRequest hotelAuthData = new MessagesRequest();
         hotelAuthData.setMessageid("1");
@@ -45,7 +43,6 @@ public class SendTextMessageTests extends ApiTestBase {
     }
 
     @Test
-    @Tag("message")
     void SendingMessageBadEmailTest() {
 
         MessagesRequest hotelAuthData = new MessagesRequest();
