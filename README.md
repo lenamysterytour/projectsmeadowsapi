@@ -44,8 +44,7 @@
 </p>
 
 <p align="center">
-<a id="jenkins"></a>
-<img title="Allure" src="media/screen/allure2.png"> </p> 
+<img title="Allure" src="media/screen/allure2.PNG"> </p> 
 
 > Отчет позволяет детально посмотреть шаги выполнения тестов
 
