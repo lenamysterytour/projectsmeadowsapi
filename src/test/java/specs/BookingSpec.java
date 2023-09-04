@@ -19,8 +19,7 @@ public class BookingSpec {
             .log().method()
             .log().body()
             .filter(withCustomTemplates())
-            .contentType(JSON)
-            .baseUri("https://automationintesting.online");
+            .contentType(JSON);
 
     public static ResponseSpecification bookingResponseSpec = new ResponseSpecBuilder()
             .log(STATUS)
@@ -40,6 +39,5 @@ public class BookingSpec {
             .log().method()
             .log().body()
             .filter(withCustomTemplates())
-            .contentType(JSON)
-            .baseUri("https://automationintesting.online");
+            .contentType(JSON);
 }
