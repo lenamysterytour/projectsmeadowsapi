@@ -83,7 +83,7 @@ public class MakeAndDeleteSuits extends ApiTestBase {
         createRoomBody.setDescription("Pet-friendly");
         createRoomBody.setImage("https://www.mwtestconsultancy.co.uk/img/room1.jpg");
         createRoomBody.setRoomPrice("5");
-        //   createRoomBody.setFeatures(null);
+        createRoomBody.setFeatures(null);
 
         step("Create new room", () -> {
             given(BookingSpec.bookingloginRequestSpec)

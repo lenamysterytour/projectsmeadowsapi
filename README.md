@@ -1,7 +1,7 @@
 # Проект по тестированию API сайта "Shady Meadows"  
 сделано в рамках дипломного проекта для qa.guru
  <p align="center">
-<img title="ivipage" src="media/screen/rbp-logo.png" width="700">
+<img title="smeadows" src="media/screen/rbp-logo.png" width="700">
 </p>
 > <a target="_blank" href="https://automationintesting.online/">automationintesting.online</a>
  
@@ -13,7 +13,7 @@
 - <a href="#tools">Использованный стек технологий</a>
 - <a href="#list">Список проверок</a> 
 - <a href="#allure">Результаты запуска тестов в Allure</a> 
-- - <a href="#telegram">Результаты запуска тестов в Allure</a>
+- <a href="#telegram">Результаты запуска тестов в Telegram</a>
 
 <p align="left">
 <a id="tools"></a>
