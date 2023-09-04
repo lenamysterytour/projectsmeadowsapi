@@ -1,6 +1,7 @@
 package tests;
 
 import models.LoginBody;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import specs.BookingSpec;
 
@@ -11,6 +12,7 @@ import static io.restassured.http.ContentType.JSON;
 public class LoginInTest extends ApiTestBase {
 
     @Test
+    @Tag("login")
             void LoginCookieTest(){
 
     LoginBody loginAuthData = new LoginBody();
