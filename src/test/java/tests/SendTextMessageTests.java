@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class SendTextMessageTests extends ApiTestBase {
 
     @Test
-    @Tag("test")
+    @Tag("api")
     void SendingMessagePositiveTest() {
         MessagesRequest hotelAuthData = new MessagesRequest();
         hotelAuthData.setMessageid("1");
@@ -45,7 +45,7 @@ public class SendTextMessageTests extends ApiTestBase {
     }
 
     @Test
-    @Tag("test")
+    @Tag("api")
     void SendingMessageBadEmailTest() {
 
         MessagesRequest hotelAuthData = new MessagesRequest();

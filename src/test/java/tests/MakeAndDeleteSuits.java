@@ -15,7 +15,7 @@ import static org.hamcrest.Matchers.is;
 public class MakeAndDeleteSuits extends ApiTestBase {
 
     @Test
-    @Tag("test")
+    @Tag("api")
     void makeRoomTest() {
         LoginBody loginAuthData = new LoginBody();
         loginAuthData.setUsername("admin");
@@ -59,7 +59,7 @@ public class MakeAndDeleteSuits extends ApiTestBase {
     }
 
     @Test
-    @Tag("test")
+    @Tag("api")
     void DeleteRoomTest() {
 
         LoginBody loginAuthData = new LoginBody();

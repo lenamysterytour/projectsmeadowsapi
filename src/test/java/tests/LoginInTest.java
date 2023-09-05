@@ -12,7 +12,7 @@ import static io.restassured.http.ContentType.JSON;
 public class LoginInTest extends ApiTestBase {
 
     @Test
-    @Tag("test")
+    @Tag("api")
             void LoginCookieTest(){
 
     LoginBody loginAuthData = new LoginBody();
