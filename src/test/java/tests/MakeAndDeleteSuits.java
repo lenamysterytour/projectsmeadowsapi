@@ -107,7 +107,7 @@ public class MakeAndDeleteSuits extends ApiTestBase {
             given(BookingSpec.bookingloginRequestSpec)
                     .cookie(authCookieKey, authCookieValue)
                     .when()
-                    .delete("/room/2")
+                    .delete("/room/3")
                     .then()
                     .log().all()
                     .statusCode(202);
