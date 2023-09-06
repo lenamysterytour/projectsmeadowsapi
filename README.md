@@ -12,11 +12,9 @@
 
 - <a href="#tools">Использованный стек технологий</a>
 - <a href="#list">Список проверок</a> 
-- <a href="#allure">Результаты запуска тестов в Allure</a> 
-- <a href="#telegram">Результаты запуска тестов в Telegram</a>
- 
-
-
+- <a href="#allure">Результаты запуска тестов в Allure</a>
+- <a href="#jira">Интеграция с Jira</a>
+- <a href="#telegram">Результаты запуска тестов в Telegram</a> 
 
 <p align="left">
 <a id="tools"></a>
