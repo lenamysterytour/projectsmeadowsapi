@@ -80,7 +80,7 @@ public class MakeAndDeleteSuits extends ApiTestBase {
 
 
         CreateRoomBody createRoomBody = new CreateRoomBody();
-        createRoomBody.setRoomName("4");
+        createRoomBody.setRoomName("7");
         createRoomBody.setType("Double");
         createRoomBody.setAccessible(true);
         createRoomBody.setDescription("Pet-friendly");
@@ -112,7 +112,6 @@ public class MakeAndDeleteSuits extends ApiTestBase {
                     .log().all()
                     .statusCode(202);
         });
-
 
     }
 }

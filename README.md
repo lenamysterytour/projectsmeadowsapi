@@ -44,8 +44,18 @@
 - Проверка на создание нового номера отеля
 - Проверка на удаление созданного номера отеля
 
+
+## <img src="media/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Задача в <a target="_blank" href="https://jenkins.autotests.cloud/job/project-ivi-eb-try1/">Jenkins</a>
+<p align="center">
+<a id="jenkins"></a>
+<img title="Jenkins" src="media/screen/jenkinsScreen1.png"> </p> 
+
+> Jenkins позволяет сделать тест параметризованным, выбрать нужный браузер, разрешение
+
+
+
 <a id="allure"></a>
-## <img src="media/logo/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://allure.autotests.cloud">Allure Report</a>
+## <img src="media/logo/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/C20-smeadows-ebtry2/7/allure/">Allure Report</a>
 <p align="center">
 <img title="Allure Overview" alt="Allure" src="media/screen/allure1.PNG">
 </p>
@@ -56,7 +66,7 @@
 > Отчет позволяет детально посмотреть шаги выполнения тестов
  
  
- ## <img src="media/logo/Allure_TO.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://allure.autotests.cloud">Allure TestOps</a>
+ ## <img src="media/logo/Allure_TO.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://allure.autotests.cloud/project/3643/dashboards">Allure TestOps</a>
 <p align="center">
 <a id="testops"></a>
 <img title="Allure Overview1" src="media/screen/testOpsScreen.png" width="700">
