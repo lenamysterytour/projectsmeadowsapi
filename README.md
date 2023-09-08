@@ -12,9 +12,11 @@
 
 - <a href="#tools">Использованный стек технологий</a>
 - <a href="#list">Список проверок</a> 
+- <a href="#jenkins">Запуск в Jenkins</a>
 - <a href="#allure">Результаты запуска тестов в Allure</a>
+- <a href="#testops">Интеграция с TestOps</a>
 - <a href="#jira">Интеграция с Jira</a>
-- <a href="#telegram">Результаты запуска тестов в Telegram</a> 
+- <a href="#telegram">Отчет о результатах в Telegram</a> 
 
 <p align="left">
 <a id="tools"></a>
@@ -45,12 +47,12 @@
 - Проверка на удаление созданного номера отеля
 
 
-## <img src="media/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Задача в <a target="_blank" href="https://jenkins.autotests.cloud/job/project-ivi-eb-try1/">Jenkins</a>
+## <img src="media/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Задача в <a target="_blank" href="https://jenkins.autotests.cloud/job/C20-smeadows-ebtry2/">Jenkins</a>
 <p align="center">
 <a id="jenkins"></a>
-<img title="Jenkins" src="media/screen/jenkinsScreen1.png"> </p> 
+<img title="Jenkins" src="media/screen/jenkinsScreen.PNG"> </p> 
 
-> Jenkins позволяет сделать тест параметризованным, выбрать нужный браузер, разрешение
+> Jenkins позволяет удаленно запустить тест и генерирует Allure и TestOps отчетность
 
 
 
@@ -78,7 +80,7 @@
 <a id="jira"></a>
 ## <img src="media/logo/Jira.svg" width="25" height="25"  alt="Jira"/></a> Отчет в <a target="_blank" href="https://www.atlassian.com/software/jira">Jira</a>
 <p align="center">
-<img title="Jira" src="media/screen/jiraScreen.PNG">
+<img title="Jira" src="media/screen/jiraScreennew.PNG">
 </p>
 
 > Тест-кейсы и результаты прогонов можно прикреплять к задачам в Jira
