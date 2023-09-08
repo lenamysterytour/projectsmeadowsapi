@@ -69,7 +69,7 @@
  ## <img src="media/logo/Allure_TO.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://allure.autotests.cloud/project/3643/dashboards">Allure TestOps</a>
 <p align="center">
 <a id="testops"></a>
-<img title="Allure Overview1" src="media/screen/testOpsScreen.png" width="700">
+<img title="Allure Overview1" src="media/screen/testOpsScreen.png">
 </p>
 
 > Интеграция с TestOps позволяет выборочно или поточно запускать тесты
@@ -78,7 +78,7 @@
 <a id="jira"></a>
 ## <img src="media/logo/Jira.svg" width="25" height="25"  alt="Jira"/></a> Отчет в <a target="_blank" href="https://www.atlassian.com/software/jira">Jira</a>
 <p align="center">
-<img title="Jira" src="media/screen/jiraScreen.PNG" width="700">
+<img title="Jira" src="media/screen/jiraScreen.PNG">
 </p>
 
 > Тест-кейсы и результаты прогонов можно прикреплять к задачам в Jira
