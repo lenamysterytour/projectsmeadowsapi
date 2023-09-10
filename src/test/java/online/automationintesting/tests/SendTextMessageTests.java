@@ -1,11 +1,11 @@
-package tests;
+package online.automationintesting.tests;
 
-import models.BadMessageResponse;
-import models.MessagesRequest;
-import models.MessagesResponse;
+import online.automationintesting.models.BadMessageResponse;
+import online.automationintesting.models.MessagesRequest;
+import online.automationintesting.models.MessagesResponse;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
-import specs.BookingSpec;
+import online.automationintesting.specs.BookingSpec;
 
 import static io.qameta.allure.Allure.step;
 import static io.restassured.RestAssured.given;
@@ -15,7 +15,7 @@ public class SendTextMessageTests extends ApiTestBase {
 
     @Test
     @Tag("api")
-    void SendingMessagePositiveTest() {
+    void sendingMessagePositiveTest() {
         MessagesRequest hotelAuthData = new MessagesRequest();
         hotelAuthData.setMessageid("1");
         hotelAuthData.setName("Jacob Jacobi");
@@ -46,7 +46,7 @@ public class SendTextMessageTests extends ApiTestBase {
 
     @Test
     @Tag("api")
-    void SendingMessageBadEmailTest() {
+    void sendingMessageBadEmailTest() {
 
         MessagesRequest hotelAuthData = new MessagesRequest();
         hotelAuthData.setMessageid("1");

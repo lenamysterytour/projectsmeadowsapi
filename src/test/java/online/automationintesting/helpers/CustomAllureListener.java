@@ -1,4 +1,4 @@
-package helpers;
+package online.automationintesting.helpers;
 
 import io.qameta.allure.restassured.AllureRestAssured;
 

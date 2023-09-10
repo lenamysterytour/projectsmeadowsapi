@@ -78,7 +78,7 @@
  
 
 <a id="jira"></a>
-## <img src="media/logo/Jira.svg" width="25" height="25"  alt="Jira"/></a> Отчет в <a target="_blank" href="https://www.atlassian.com/software/jira">Jira</a>
+## <img src="media/logo/Jira.svg" width="25" height="25"  alt="Jira"/></a> Отчет в <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-868">Jira</a>
 <p align="center">
 <img title="Jira" src="media/screen/jiraScreennew.PNG">
 </p>

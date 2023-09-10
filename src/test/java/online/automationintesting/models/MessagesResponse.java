@@ -1,4 +1,4 @@
-package models;
+package online.automationintesting.models;
 
 import lombok.Data;
 

@@ -1,4 +1,4 @@
-package tests;
+package online.automationintesting.tests;
 
 
 import org.junit.jupiter.api.BeforeAll;

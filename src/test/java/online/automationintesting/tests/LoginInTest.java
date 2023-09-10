@@ -1,9 +1,9 @@
-package tests;
+package online.automationintesting.tests;
 
-import models.LoginBody;
+import online.automationintesting.models.LoginBody;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
-import specs.BookingSpec;
+import online.automationintesting.specs.BookingSpec;
 
 import static io.restassured.RestAssured.given;
 import static io.restassured.http.ContentType.JSON;
@@ -13,7 +13,7 @@ public class LoginInTest extends ApiTestBase {
 
     @Test
     @Tag("api")
-            void LoginCookieTest(){
+            void loginCookieTest(){
 
     LoginBody loginAuthData = new LoginBody();
         loginAuthData.setUsername("admin");
