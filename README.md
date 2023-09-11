@@ -57,7 +57,7 @@
 
 
 <a id="allure"></a>
-## <img src="media/logo/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/C20-smeadows-ebtry2/7/allure/">Allure Report</a>
+## <img src="media/logo/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/C20-smeadows-ebtry2/allure/">Allure Report</a>
 <p align="center">
 <img title="Allure Overview" alt="Allure" src="media/screen/allure1.PNG">
 </p>
