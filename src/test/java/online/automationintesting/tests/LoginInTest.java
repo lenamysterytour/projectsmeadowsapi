@@ -20,7 +20,7 @@ public class LoginInTest extends ApiTestBase {
         loginAuthData.setPassword("password");
     String authCookieKey = "token";
     String authCookieValue =
-            given(BookingSpec.bookingloginRequestSpec)
+            given(BookingSpec.loginRequestSpec)
                     .contentType(JSON)
                     .body(loginAuthData)
                     .when()

@@ -22,7 +22,7 @@ public class MakeAndDeleteSuits extends ApiTestBase {
         loginAuthData.setPassword("password");
         String authCookieKey = "token";
         String authCookieValue = step("Get new token", () ->
-                given(BookingSpec.bookingloginRequestSpec)
+                given(BookingSpec.loginRequestSpec)
                         .contentType(JSON)
                         .body(loginAuthData)
                         .when()
@@ -45,7 +45,7 @@ public class MakeAndDeleteSuits extends ApiTestBase {
 
 
         step("Create new room", () ->
-                given(BookingSpec.bookingloginRequestSpec)
+                given(BookingSpec.loginRequestSpec)
                         .contentType(JSON)
                         .cookie(authCookieKey, authCookieValue)
                         .body(createRoomBody)
@@ -67,7 +67,7 @@ public class MakeAndDeleteSuits extends ApiTestBase {
         loginAuthData.setPassword("password");
         String authCookieKey = "token";
         String authCookieValue = step("get new token", () ->
-                given(BookingSpec.bookingloginRequestSpec)
+                given(BookingSpec.loginRequestSpec)
                         .contentType(JSON)
                         .body(loginAuthData)
                         .when()
@@ -89,7 +89,7 @@ public class MakeAndDeleteSuits extends ApiTestBase {
         createRoomBody.setFeatures(null);
 
         step("Create new room", () -> {
-            given(BookingSpec.bookingloginRequestSpec)
+            given(BookingSpec.loginRequestSpec)
                     .contentType(JSON)
                     .cookie(authCookieKey, authCookieValue)
                     .body(createRoomBody)
@@ -104,7 +104,7 @@ public class MakeAndDeleteSuits extends ApiTestBase {
 
 
         step("Delete new room", () -> {
-            given(BookingSpec.bookingloginRequestSpec)
+            given(BookingSpec.loginRequestSpec)
                     .cookie(authCookieKey, authCookieValue)
                     .when()
                     .delete("/room/2")

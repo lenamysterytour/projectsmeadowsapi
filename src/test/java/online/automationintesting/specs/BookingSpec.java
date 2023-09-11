@@ -13,7 +13,12 @@ import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInC
 
 public class BookingSpec {
 
-
+    public static RequestSpecification loginRequestSpec = with()
+            .log().uri()
+            .log().method()
+            .log().body()
+            .filter(withCustomTemplates())
+            .contentType(JSON);
     public static RequestSpecification bookingRequestSpec = with()
             .log().uri()
             .log().method()
@@ -34,10 +39,4 @@ public class BookingSpec {
             .expectBody(matchesJsonSchemaInClasspath("schemas/message-bademail-schema.json"))
             .build();
 
-    public static RequestSpecification bookingloginRequestSpec = with()
-            .log().uri()
-            .log().method()
-            .log().body()
-            .filter(withCustomTemplates())
-            .contentType(JSON);
 }
