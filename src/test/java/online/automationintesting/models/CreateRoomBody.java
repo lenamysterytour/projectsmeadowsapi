@@ -9,5 +9,7 @@ import java.util.List;
 public class CreateRoomBody {
     String roomName, type, description, image, roomPrice;
     boolean accessible;
-    List<String> features;}
+    List<String> features;
+
+}
 

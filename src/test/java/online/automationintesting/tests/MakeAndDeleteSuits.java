@@ -7,6 +7,8 @@ import org.junit.jupiter.api.Test;
 import online.automationintesting.specs.BookingSpec;
 
 
+import java.util.List;
+
 import static io.qameta.allure.Allure.step;
 import static io.restassured.RestAssured.given;
 import static io.restassured.http.ContentType.JSON;
@@ -41,7 +43,7 @@ public class MakeAndDeleteSuits extends ApiTestBase {
         createRoomBody.setDescription("Pet-friendly");
         createRoomBody.setImage("https://www.mwtestconsultancy.co.uk/img/room1.jpg");
         createRoomBody.setRoomPrice("5");
-        createRoomBody.setFeatures(null);
+        createRoomBody.setFeatures(List.of(new String[]{"WiFi", "TV"}));
 
 
         step("Create new room", () ->

@@ -46,3 +46,9 @@ task api_test(type: Test) {
         includeTags("api")
     }
 }
+
+task now_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("now")
+    }
+}
